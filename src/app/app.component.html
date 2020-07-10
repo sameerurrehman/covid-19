@@ -1,0 +1,152 @@
+
+<nav class="navbar fixed-top navbar-light" style="background-color: #0a1229;">
+    <div class="container">
+        <a class="navbar-brand" href="#" style="color: #fff;">COVID 19</a>
+        <div class="sty-nav">
+        <a class="navbar-brand" href="#">HOME</a>
+        <a class="navbar-brand" href="#">ABOUT CORONA</a>
+        <a class="navbar-brand" href="#">SYMPTOMS</a>
+        <a class="navbar-brand" href="#">CONTACT US</a>
+        </div>
+    </div>
+</nav>
+
+ <!-- Banner 1 -->
+  <div class="banner1">
+  <img src="assets/images/banner1.jpg">
+  </div>
+
+  <!-- Banner 2 -->
+  <div class="banner2">
+      <div class="container">
+          <div class="covidtxt">
+          <h1>Covid-19</h1>
+          <br />
+          <br />
+          <p style="font-size: 24px;">Coronavirus disease <span style="color: red;">(COVID-19)</span> is an infectious disease caused by a newly discovered coronavirus.
+            Protect yourself and others around you by knowing the facts and taking appropriate precautions</p>
+            <br />
+            <h4>Follow advice provided by your local health authority.</h4>
+          </div>
+          <div class="row">
+
+            <div class="col-sm-3">
+              <div class="card">
+                <img class="card-img-top" src="assets/images/wash.png" alt="Card image wash">
+                <div class="card-body">
+                  <p>Wash Your Hands</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/mask.png" alt="Card image mask">
+                  <div class="card-body">
+                   <p>Use Face Mask</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/medical.png" alt="Card image medical">
+                  <div class="card-body">
+                    <p>Go to The Doctor</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="assets/images/ambulance.png" alt="Card image ambulance">
+                  <div class="card-body">
+                    <p>Call Ambulance</p>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+      </div>
+  </div>
+
+  <!-- Banner3 -->
+<div class="banner3">
+ 
+        <div class="covidtxt">
+            <h1>Covid-19 Statistics</h1>
+            <br />
+            <br />
+            <p>Here you can find 100% updated stats realted to coronavirus.</p>
+            <p>Globally | Country Wise | City Wise</p>
+            <br />
+            <mat-form-field appearance="fill" style="width: 40%;">
+              <mat-label>Choose a country</mat-label>
+              <mat-select>
+                <mat-option *ngFor="let country of countrys" [value]="country.value">
+                  {{country.viewValue}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+        </div>
+        <br />
+        <div class="col-md-12">
+        <div class="col-md-3 graph-data">
+          <mat-card style="background-color: rgb(251, 242, 233); height: 100px;">
+            <img class="cadr" src="assets/images/people.png" mat-card-md-image>
+            <div class="cadr-data">
+            <span class="cadr-no">12,268,518</span>
+            <p>Confirmed</p>
+            </div>
+          </mat-card><br />
+          <mat-card style="background-color: rgb(255, 236, 179); height: 100px;">
+            <img class="cadr" src="assets/images/active.png" mat-card-md-image>
+            <div class="cadr-data">
+            <span class="cadr-no">4,973,470</span>
+            <p>Active</p>
+            </div>
+          </mat-card><br />
+          <mat-card style="background-color: rgb(244, 199, 195); height: 100px;">
+            <img class="cadr" src="assets/images/death.png" mat-card-md-image>	
+            <div class="cadr-data">
+            <span class="cadr-no">554,924</span>
+            <p>Death</p>
+            </div>
+          </mat-card><br />
+          <mat-card style="background-color: rgb(200, 230, 201); height: 100px;">
+            <img class="cadr" src="assets/images/recover.png" mat-card-md-image>
+            <div class="cadr-data">	
+            <span class="cadr-no">6,740,124</span>
+            <p>Recovered</p>
+            </div>
+          </mat-card>
+        </div>
+        <div class="col-md-9 graph">
+          <img src="assets/images/graph.png">
+        </div>
+        </div>
+</div>
+
+<div class="map">
+<div class="container">
+  <div class="col-md-12">
+    <mat-card>
+    <div class="mapouter">
+      <div class="gmap_canvas">
+      <iframe width="1047" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=pakistan&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      <a href="https://thevpndeal.com/nordvpn-coupon/">nordvpn coupon</a>
+    </div>
+    <style>
+    .mapouter{
+      position:relative;text-align:right;height:500px;width:1047px;
+    }
+    .gmap_canvas {
+      overflow:hidden;background:none!important;height:500px;width:1047px;
+    }
+    </style>
+    </div>
+  </mat-card>
+    </div>
+</div>
+</div>
+<div class="footer">
+ <p>Copyright&nbsp;&copy;&nbsp;2020 <span style="color: red;">Covid-19</span> Inc.All Rights Reserved.</p>
+ 
+</div>
